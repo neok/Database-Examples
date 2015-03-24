@@ -1,0 +1,9 @@
+CREATE DATABASE `database_examples`;
+
+USE `database_examples`;
+
+CREATE TABLE IF NOT EXISTS `main` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(60) NOT NULL DEFAULT '',
+  PRIMARY KEY(`id`)
+) ENGINE = InnoDB;
